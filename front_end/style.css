@@ -454,8 +454,15 @@ body {
   opacity: 0.35;
   pointer-events: none;
   z-index: 0;
+  background: var(--bg); /* fallback in case JS/3Dmol hasn't painted yet */
   -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, black 40%, transparent 75%);
   mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, black 40%, transparent 75%);
+}
+
+/* Belt-and-braces: force the 3Dmol canvas itself to never render white,
+   regardless of what backgroundAlpha/backgroundColor the JS sets. */
+#mol-bg canvas {
+  background: var(--bg) !important;
 }
 
 /* ---------- landing / title page ---------- */
