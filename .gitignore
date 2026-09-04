@@ -1,0 +1,15 @@
+# data — registration-gated, do not redistribute
+AMR_Combined_AllCountries.csv
+
+# secrets
+.env
+.env.*
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

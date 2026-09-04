@@ -1,0 +1,2557 @@
+{
+  "country": "India",
+  "n_rows": 3861,
+  "n_species": 33,
+  "n_antibiotics": 30,
+  "years": [
+    2004,
+    2006,
+    2007,
+    2008,
+    2009,
+    2015,
+    2016,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "species_categories": [
+    "Acinetobacter baumannii",
+    "Acinetobacter lactucae",
+    "Acinetobacter pitii",
+    "Acinetobacter spp",
+    "Acinetobacter, non-speciated",
+    "Citrobacter diversus",
+    "Citrobacter freundii",
+    "Citrobacter koseri",
+    "Enterobacter cloacae",
+    "Enterobacter hormaechi",
+    "Enterobacter spp",
+    "Enterobacter, non-speciated",
+    "Escherichia coli",
+    "Klebsiella aerogenes",
+    "Klebsiella oxytoca",
+    "Klebsiella pneumoniae",
+    "Klebsiella spp",
+    "Morganella morganii",
+    "Proteus mirabilis",
+    "Proteus vulgaris",
+    "Providencia rettgeri",
+    "Pseudomonas aeruginosa",
+    "Serratia marcescens",
+    "Serratia spp",
+    "Staphylococcus Coagulase Negative",
+    "Staphylococcus aureus",
+    "Staphylococcus epidermidis",
+    "Staphylococcus haemolyticus",
+    "Staphylococcus spp",
+    "Streptococcus agalactiae",
+    "Streptococcus dysgalactiae",
+    "Streptococcus pneumoniae",
+    "Streptococcus pyogenes"
+  ],
+  "antibiotic_categories": [
+    "Amikacin",
+    "Amoxy/clav",
+    "Ampicillin",
+    "Ampicillin sulbactam",
+    "Azithromycin",
+    "Cefepime",
+    "Cefiderocol",
+    "Ceftaroline",
+    "Ceftazidime",
+    "Ceftazidime avibactam",
+    "Ceftibuten",
+    "Ceftolozane tazobactam",
+    "Ceftriaxone",
+    "Ciprofloxacin",
+    "Clarithromycin",
+    "Colistin",
+    "Erythromycin",
+    "Gentamicin",
+    "Imipenem",
+    "Levofloxacin",
+    "Linezolid",
+    "Meropenem",
+    "Meropenem vaborbactam",
+    "Minocycline",
+    "Oxacillin",
+    "Penicillin",
+    "Pip/taz",
+    "Teicoplanin",
+    "Trimethoprim sulfa",
+    "Vancomycin"
+  ],
+  "combo_support": {
+    "Acinetobacter baumannii|||Amikacin": 1453,
+    "Acinetobacter baumannii|||Ampicillin sulbactam": 1278,
+    "Acinetobacter baumannii|||Cefepime": 1453,
+    "Acinetobacter baumannii|||Cefiderocol": 164,
+    "Acinetobacter baumannii|||Ceftazidime": 1453,
+    "Acinetobacter baumannii|||Ciprofloxacin": 1278,
+    "Acinetobacter baumannii|||Colistin": 1278,
+    "Acinetobacter baumannii|||Gentamicin": 1278,
+    "Acinetobacter baumannii|||Imipenem": 1289,
+    "Acinetobacter baumannii|||Levofloxacin": 1453,
+    "Acinetobacter baumannii|||Meropenem": 1442,
+    "Acinetobacter baumannii|||Pip/taz": 1453,
+    "Acinetobacter baumannii|||Trimethoprim sulfa": 1278,
+    "Acinetobacter lactucae|||Amikacin": 10,
+    "Acinetobacter lactucae|||Ampicillin sulbactam": 10,
+    "Acinetobacter lactucae|||Cefepime": 10,
+    "Acinetobacter lactucae|||Ceftazidime": 10,
+    "Acinetobacter lactucae|||Ciprofloxacin": 10,
+    "Acinetobacter lactucae|||Colistin": 10,
+    "Acinetobacter lactucae|||Gentamicin": 10,
+    "Acinetobacter lactucae|||Imipenem": 10,
+    "Acinetobacter lactucae|||Levofloxacin": 10,
+    "Acinetobacter lactucae|||Meropenem": 10,
+    "Acinetobacter lactucae|||Pip/taz": 10,
+    "Acinetobacter lactucae|||Trimethoprim sulfa": 10,
+    "Acinetobacter pitii|||Amikacin": 18,
+    "Acinetobacter pitii|||Ampicillin sulbactam": 18,
+    "Acinetobacter pitii|||Cefepime": 18,
+    "Acinetobacter pitii|||Ceftazidime": 18,
+    "Acinetobacter pitii|||Ciprofloxacin": 18,
+    "Acinetobacter pitii|||Colistin": 18,
+    "Acinetobacter pitii|||Gentamicin": 18,
+    "Acinetobacter pitii|||Imipenem": 18,
+    "Acinetobacter pitii|||Levofloxacin": 18,
+    "Acinetobacter pitii|||Meropenem": 18,
+    "Acinetobacter pitii|||Pip/taz": 18,
+    "Acinetobacter pitii|||Trimethoprim sulfa": 18,
+    "Acinetobacter spp|||Amikacin": 135,
+    "Acinetobacter spp|||Ampicillin sulbactam": 135,
+    "Acinetobacter spp|||Cefepime": 135,
+    "Acinetobacter spp|||Ceftazidime": 135,
+    "Acinetobacter spp|||Ciprofloxacin": 135,
+    "Acinetobacter spp|||Colistin": 135,
+    "Acinetobacter spp|||Gentamicin": 135,
+    "Acinetobacter spp|||Imipenem": 135,
+    "Acinetobacter spp|||Levofloxacin": 135,
+    "Acinetobacter spp|||Meropenem": 135,
+    "Acinetobacter spp|||Pip/taz": 135,
+    "Acinetobacter spp|||Trimethoprim sulfa": 135,
+    "Acinetobacter, non-speciated|||Amikacin": 16,
+    "Acinetobacter, non-speciated|||Cefepime": 16,
+    "Acinetobacter, non-speciated|||Ceftazidime": 16,
+    "Acinetobacter, non-speciated|||Levofloxacin": 16,
+    "Acinetobacter, non-speciated|||Meropenem": 16,
+    "Acinetobacter, non-speciated|||Pip/taz": 16,
+    "Citrobacter diversus|||Amikacin": 10,
+    "Citrobacter diversus|||Amoxy/clav": 10,
+    "Citrobacter diversus|||Ampicillin": 10,
+    "Citrobacter diversus|||Ampicillin sulbactam": 10,
+    "Citrobacter diversus|||Cefepime": 10,
+    "Citrobacter diversus|||Ceftaroline": 10,
+    "Citrobacter diversus|||Ceftazidime": 10,
+    "Citrobacter diversus|||Ceftazidime avibactam": 10,
+    "Citrobacter diversus|||Ciprofloxacin": 10,
+    "Citrobacter diversus|||Colistin": 10,
+    "Citrobacter diversus|||Gentamicin": 10,
+    "Citrobacter diversus|||Imipenem": 10,
+    "Citrobacter diversus|||Levofloxacin": 10,
+    "Citrobacter diversus|||Meropenem": 10,
+    "Citrobacter diversus|||Pip/taz": 10,
+    "Citrobacter diversus|||Trimethoprim sulfa": 10,
+    "Citrobacter freundii|||Amikacin": 22,
+    "Citrobacter freundii|||Amoxy/clav": 22,
+    "Citrobacter freundii|||Ampicillin": 22,
+    "Citrobacter freundii|||Ampicillin sulbactam": 22,
+    "Citrobacter freundii|||Cefepime": 22,
+    "Citrobacter freundii|||Ceftaroline": 22,
+    "Citrobacter freundii|||Ceftazidime": 22,
+    "Citrobacter freundii|||Ceftazidime avibactam": 22,
+    "Citrobacter freundii|||Ceftolozane tazobactam": 22,
+    "Citrobacter freundii|||Ciprofloxacin": 22,
+    "Citrobacter freundii|||Colistin": 22,
+    "Citrobacter freundii|||Gentamicin": 22,
+    "Citrobacter freundii|||Imipenem": 22,
+    "Citrobacter freundii|||Levofloxacin": 22,
+    "Citrobacter freundii|||Meropenem": 22,
+    "Citrobacter freundii|||Meropenem vaborbactam": 22,
+    "Citrobacter freundii|||Pip/taz": 22,
+    "Citrobacter freundii|||Trimethoprim sulfa": 22,
+    "Citrobacter koseri|||Amikacin": 168,
+    "Citrobacter koseri|||Amoxy/clav": 168,
+    "Citrobacter koseri|||Ampicillin": 168,
+    "Citrobacter koseri|||Ampicillin sulbactam": 168,
+    "Citrobacter koseri|||Cefepime": 168,
+    "Citrobacter koseri|||Cefiderocol": 27,
+    "Citrobacter koseri|||Ceftaroline": 168,
+    "Citrobacter koseri|||Ceftazidime": 168,
+    "Citrobacter koseri|||Ceftazidime avibactam": 168,
+    "Citrobacter koseri|||Ceftibuten": 80,
+    "Citrobacter koseri|||Ceftolozane tazobactam": 139,
+    "Citrobacter koseri|||Ciprofloxacin": 168,
+    "Citrobacter koseri|||Colistin": 168,
+    "Citrobacter koseri|||Gentamicin": 168,
+    "Citrobacter koseri|||Imipenem": 168,
+    "Citrobacter koseri|||Levofloxacin": 168,
+    "Citrobacter koseri|||Meropenem": 168,
+    "Citrobacter koseri|||Meropenem vaborbactam": 139,
+    "Citrobacter koseri|||Pip/taz": 168,
+    "Citrobacter koseri|||Trimethoprim sulfa": 168,
+    "Enterobacter cloacae|||Amikacin": 372,
+    "Enterobacter cloacae|||Amoxy/clav": 372,
+    "Enterobacter cloacae|||Ampicillin": 372,
+    "Enterobacter cloacae|||Ampicillin sulbactam": 253,
+    "Enterobacter cloacae|||Cefepime": 372,
+    "Enterobacter cloacae|||Cefiderocol": 10,
+    "Enterobacter cloacae|||Ceftaroline": 253,
+    "Enterobacter cloacae|||Ceftazidime": 296,
+    "Enterobacter cloacae|||Ceftazidime avibactam": 253,
+    "Enterobacter cloacae|||Ceftibuten": 40,
+    "Enterobacter cloacae|||Ceftolozane tazobactam": 121,
+    "Enterobacter cloacae|||Ceftriaxone": 119,
+    "Enterobacter cloacae|||Ciprofloxacin": 253,
+    "Enterobacter cloacae|||Colistin": 253,
+    "Enterobacter cloacae|||Gentamicin": 253,
+    "Enterobacter cloacae|||Imipenem": 253,
+    "Enterobacter cloacae|||Levofloxacin": 372,
+    "Enterobacter cloacae|||Meropenem": 372,
+    "Enterobacter cloacae|||Meropenem vaborbactam": 121,
+    "Enterobacter cloacae|||Minocycline": 119,
+    "Enterobacter cloacae|||Pip/taz": 372,
+    "Enterobacter cloacae|||Trimethoprim sulfa": 253,
+    "Enterobacter hormaechi|||Amikacin": 119,
+    "Enterobacter hormaechi|||Amoxy/clav": 119,
+    "Enterobacter hormaechi|||Ampicillin": 119,
+    "Enterobacter hormaechi|||Ampicillin sulbactam": 119,
+    "Enterobacter hormaechi|||Cefepime": 119,
+    "Enterobacter hormaechi|||Cefiderocol": 46,
+    "Enterobacter hormaechi|||Ceftaroline": 119,
+    "Enterobacter hormaechi|||Ceftazidime": 119,
+    "Enterobacter hormaechi|||Ceftazidime avibactam": 119,
+    "Enterobacter hormaechi|||Ceftibuten": 119,
+    "Enterobacter hormaechi|||Ceftolozane tazobactam": 119,
+    "Enterobacter hormaechi|||Ciprofloxacin": 119,
+    "Enterobacter hormaechi|||Colistin": 119,
+    "Enterobacter hormaechi|||Gentamicin": 119,
+    "Enterobacter hormaechi|||Imipenem": 119,
+    "Enterobacter hormaechi|||Levofloxacin": 119,
+    "Enterobacter hormaechi|||Meropenem": 119,
+    "Enterobacter hormaechi|||Meropenem vaborbactam": 119,
+    "Enterobacter hormaechi|||Pip/taz": 119,
+    "Enterobacter hormaechi|||Trimethoprim sulfa": 119,
+    "Enterobacter spp|||Amikacin": 58,
+    "Enterobacter spp|||Amoxy/clav": 58,
+    "Enterobacter spp|||Ampicillin": 58,
+    "Enterobacter spp|||Ampicillin sulbactam": 58,
+    "Enterobacter spp|||Cefepime": 58,
+    "Enterobacter spp|||Ceftaroline": 58,
+    "Enterobacter spp|||Ceftazidime": 58,
+    "Enterobacter spp|||Ceftazidime avibactam": 58,
+    "Enterobacter spp|||Ceftolozane tazobactam": 58,
+    "Enterobacter spp|||Ciprofloxacin": 58,
+    "Enterobacter spp|||Colistin": 58,
+    "Enterobacter spp|||Gentamicin": 58,
+    "Enterobacter spp|||Imipenem": 58,
+    "Enterobacter spp|||Levofloxacin": 58,
+    "Enterobacter spp|||Meropenem": 58,
+    "Enterobacter spp|||Meropenem vaborbactam": 58,
+    "Enterobacter spp|||Pip/taz": 58,
+    "Enterobacter spp|||Trimethoprim sulfa": 58,
+    "Enterobacter, non-speciated|||Amikacin": 41,
+    "Enterobacter, non-speciated|||Amoxy/clav": 41,
+    "Enterobacter, non-speciated|||Ampicillin": 41,
+    "Enterobacter, non-speciated|||Cefepime": 41,
+    "Enterobacter, non-speciated|||Ceftazidime": 19,
+    "Enterobacter, non-speciated|||Ceftriaxone": 41,
+    "Enterobacter, non-speciated|||Levofloxacin": 41,
+    "Enterobacter, non-speciated|||Meropenem": 41,
+    "Enterobacter, non-speciated|||Minocycline": 41,
+    "Enterobacter, non-speciated|||Pip/taz": 41,
+    "Escherichia coli|||Amikacin": 2939,
+    "Escherichia coli|||Amoxy/clav": 2939,
+    "Escherichia coli|||Ampicillin": 2939,
+    "Escherichia coli|||Ampicillin sulbactam": 2622,
+    "Escherichia coli|||Cefepime": 2939,
+    "Escherichia coli|||Cefiderocol": 395,
+    "Escherichia coli|||Ceftaroline": 2622,
+    "Escherichia coli|||Ceftazidime": 2721,
+    "Escherichia coli|||Ceftazidime avibactam": 2622,
+    "Escherichia coli|||Ceftibuten": 1197,
+    "Escherichia coli|||Ceftolozane tazobactam": 2128,
+    "Escherichia coli|||Ceftriaxone": 317,
+    "Escherichia coli|||Ciprofloxacin": 2621,
+    "Escherichia coli|||Colistin": 2622,
+    "Escherichia coli|||Gentamicin": 2622,
+    "Escherichia coli|||Imipenem": 2672,
+    "Escherichia coli|||Levofloxacin": 2939,
+    "Escherichia coli|||Meropenem": 2889,
+    "Escherichia coli|||Meropenem vaborbactam": 2128,
+    "Escherichia coli|||Minocycline": 317,
+    "Escherichia coli|||Pip/taz": 2939,
+    "Escherichia coli|||Trimethoprim sulfa": 2622,
+    "Klebsiella aerogenes|||Amikacin": 48,
+    "Klebsiella aerogenes|||Amoxy/clav": 48,
+    "Klebsiella aerogenes|||Ampicillin": 48,
+    "Klebsiella aerogenes|||Ampicillin sulbactam": 33,
+    "Klebsiella aerogenes|||Cefepime": 48,
+    "Klebsiella aerogenes|||Ceftaroline": 33,
+    "Klebsiella aerogenes|||Ceftazidime": 33,
+    "Klebsiella aerogenes|||Ceftazidime avibactam": 33,
+    "Klebsiella aerogenes|||Ceftibuten": 12,
+    "Klebsiella aerogenes|||Ceftolozane tazobactam": 23,
+    "Klebsiella aerogenes|||Ceftriaxone": 15,
+    "Klebsiella aerogenes|||Ciprofloxacin": 33,
+    "Klebsiella aerogenes|||Colistin": 33,
+    "Klebsiella aerogenes|||Gentamicin": 33,
+    "Klebsiella aerogenes|||Imipenem": 33,
+    "Klebsiella aerogenes|||Levofloxacin": 48,
+    "Klebsiella aerogenes|||Meropenem": 48,
+    "Klebsiella aerogenes|||Meropenem vaborbactam": 23,
+    "Klebsiella aerogenes|||Minocycline": 15,
+    "Klebsiella aerogenes|||Pip/taz": 48,
+    "Klebsiella aerogenes|||Trimethoprim sulfa": 33,
+    "Klebsiella oxytoca|||Amikacin": 23,
+    "Klebsiella oxytoca|||Amoxy/clav": 23,
+    "Klebsiella oxytoca|||Ampicillin": 23,
+    "Klebsiella oxytoca|||Ampicillin sulbactam": 10,
+    "Klebsiella oxytoca|||Cefepime": 23,
+    "Klebsiella oxytoca|||Ceftaroline": 10,
+    "Klebsiella oxytoca|||Ceftazidime": 10,
+    "Klebsiella oxytoca|||Ceftazidime avibactam": 10,
+    "Klebsiella oxytoca|||Ceftibuten": 10,
+    "Klebsiella oxytoca|||Ceftolozane tazobactam": 10,
+    "Klebsiella oxytoca|||Ceftriaxone": 13,
+    "Klebsiella oxytoca|||Ciprofloxacin": 10,
+    "Klebsiella oxytoca|||Colistin": 10,
+    "Klebsiella oxytoca|||Gentamicin": 10,
+    "Klebsiella oxytoca|||Imipenem": 10,
+    "Klebsiella oxytoca|||Levofloxacin": 23,
+    "Klebsiella oxytoca|||Meropenem": 23,
+    "Klebsiella oxytoca|||Meropenem vaborbactam": 10,
+    "Klebsiella oxytoca|||Minocycline": 13,
+    "Klebsiella oxytoca|||Pip/taz": 23,
+    "Klebsiella oxytoca|||Trimethoprim sulfa": 10,
+    "Klebsiella pneumoniae|||Amikacin": 3231,
+    "Klebsiella pneumoniae|||Amoxy/clav": 3231,
+    "Klebsiella pneumoniae|||Ampicillin": 3231,
+    "Klebsiella pneumoniae|||Ampicillin sulbactam": 2912,
+    "Klebsiella pneumoniae|||Cefepime": 3231,
+    "Klebsiella pneumoniae|||Cefiderocol": 458,
+    "Klebsiella pneumoniae|||Ceftaroline": 2912,
+    "Klebsiella pneumoniae|||Ceftazidime": 3009,
+    "Klebsiella pneumoniae|||Ceftazidime avibactam": 2912,
+    "Klebsiella pneumoniae|||Ceftibuten": 1344,
+    "Klebsiella pneumoniae|||Ceftolozane tazobactam": 2382,
+    "Klebsiella pneumoniae|||Ceftriaxone": 319,
+    "Klebsiella pneumoniae|||Ciprofloxacin": 2912,
+    "Klebsiella pneumoniae|||Colistin": 2912,
+    "Klebsiella pneumoniae|||Gentamicin": 2912,
+    "Klebsiella pneumoniae|||Imipenem": 2959,
+    "Klebsiella pneumoniae|||Levofloxacin": 3231,
+    "Klebsiella pneumoniae|||Meropenem": 3183,
+    "Klebsiella pneumoniae|||Meropenem vaborbactam": 2382,
+    "Klebsiella pneumoniae|||Minocycline": 319,
+    "Klebsiella pneumoniae|||Pip/taz": 3231,
+    "Klebsiella pneumoniae|||Trimethoprim sulfa": 2912,
+    "Klebsiella spp|||Amikacin": 10,
+    "Klebsiella spp|||Amoxy/clav": 10,
+    "Klebsiella spp|||Ampicillin": 10,
+    "Klebsiella spp|||Ampicillin sulbactam": 10,
+    "Klebsiella spp|||Cefepime": 10,
+    "Klebsiella spp|||Ceftaroline": 10,
+    "Klebsiella spp|||Ceftazidime": 10,
+    "Klebsiella spp|||Ceftazidime avibactam": 10,
+    "Klebsiella spp|||Ceftibuten": 10,
+    "Klebsiella spp|||Ceftolozane tazobactam": 10,
+    "Klebsiella spp|||Ciprofloxacin": 10,
+    "Klebsiella spp|||Colistin": 10,
+    "Klebsiella spp|||Gentamicin": 10,
+    "Klebsiella spp|||Imipenem": 10,
+    "Klebsiella spp|||Levofloxacin": 10,
+    "Klebsiella spp|||Meropenem": 10,
+    "Klebsiella spp|||Meropenem vaborbactam": 10,
+    "Klebsiella spp|||Pip/taz": 10,
+    "Klebsiella spp|||Trimethoprim sulfa": 10,
+    "Morganella morganii|||Amikacin": 175,
+    "Morganella morganii|||Amoxy/clav": 175,
+    "Morganella morganii|||Ampicillin": 175,
+    "Morganella morganii|||Ampicillin sulbactam": 175,
+    "Morganella morganii|||Cefepime": 175,
+    "Morganella morganii|||Cefiderocol": 25,
+    "Morganella morganii|||Ceftaroline": 175,
+    "Morganella morganii|||Ceftazidime": 175,
+    "Morganella morganii|||Ceftazidime avibactam": 175,
+    "Morganella morganii|||Ceftibuten": 73,
+    "Morganella morganii|||Ceftolozane tazobactam": 129,
+    "Morganella morganii|||Ciprofloxacin": 175,
+    "Morganella morganii|||Colistin": 175,
+    "Morganella morganii|||Gentamicin": 175,
+    "Morganella morganii|||Imipenem": 175,
+    "Morganella morganii|||Levofloxacin": 175,
+    "Morganella morganii|||Meropenem": 175,
+    "Morganella morganii|||Meropenem vaborbactam": 129,
+    "Morganella morganii|||Pip/taz": 175,
+    "Morganella morganii|||Trimethoprim sulfa": 175,
+    "Proteus mirabilis|||Amikacin": 251,
+    "Proteus mirabilis|||Amoxy/clav": 251,
+    "Proteus mirabilis|||Ampicillin": 251,
+    "Proteus mirabilis|||Ampicillin sulbactam": 251,
+    "Proteus mirabilis|||Cefepime": 251,
+    "Proteus mirabilis|||Cefiderocol": 39,
+    "Proteus mirabilis|||Ceftaroline": 251,
+    "Proteus mirabilis|||Ceftazidime": 251,
+    "Proteus mirabilis|||Ceftazidime avibactam": 251,
+    "Proteus mirabilis|||Ceftibuten": 110,
+    "Proteus mirabilis|||Ceftolozane tazobactam": 188,
+    "Proteus mirabilis|||Ciprofloxacin": 251,
+    "Proteus mirabilis|||Colistin": 251,
+    "Proteus mirabilis|||Gentamicin": 251,
+    "Proteus mirabilis|||Imipenem": 251,
+    "Proteus mirabilis|||Levofloxacin": 251,
+    "Proteus mirabilis|||Meropenem": 251,
+    "Proteus mirabilis|||Meropenem vaborbactam": 188,
+    "Proteus mirabilis|||Pip/taz": 251,
+    "Proteus mirabilis|||Trimethoprim sulfa": 251,
+    "Proteus vulgaris|||Amikacin": 10,
+    "Proteus vulgaris|||Amoxy/clav": 10,
+    "Proteus vulgaris|||Ampicillin": 10,
+    "Proteus vulgaris|||Ampicillin sulbactam": 10,
+    "Proteus vulgaris|||Cefepime": 10,
+    "Proteus vulgaris|||Cefiderocol": 10,
+    "Proteus vulgaris|||Ceftaroline": 10,
+    "Proteus vulgaris|||Ceftazidime": 10,
+    "Proteus vulgaris|||Ceftazidime avibactam": 10,
+    "Proteus vulgaris|||Ceftibuten": 10,
+    "Proteus vulgaris|||Ceftolozane tazobactam": 10,
+    "Proteus vulgaris|||Ciprofloxacin": 10,
+    "Proteus vulgaris|||Colistin": 10,
+    "Proteus vulgaris|||Gentamicin": 10,
+    "Proteus vulgaris|||Imipenem": 10,
+    "Proteus vulgaris|||Levofloxacin": 10,
+    "Proteus vulgaris|||Meropenem": 10,
+    "Proteus vulgaris|||Meropenem vaborbactam": 10,
+    "Proteus vulgaris|||Pip/taz": 10,
+    "Proteus vulgaris|||Trimethoprim sulfa": 10,
+    "Providencia rettgeri|||Amikacin": 80,
+    "Providencia rettgeri|||Amoxy/clav": 80,
+    "Providencia rettgeri|||Ampicillin": 80,
+    "Providencia rettgeri|||Ampicillin sulbactam": 80,
+    "Providencia rettgeri|||Cefepime": 80,
+    "Providencia rettgeri|||Cefiderocol": 11,
+    "Providencia rettgeri|||Ceftaroline": 80,
+    "Providencia rettgeri|||Ceftazidime": 80,
+    "Providencia rettgeri|||Ceftazidime avibactam": 80,
+    "Providencia rettgeri|||Ceftibuten": 35,
+    "Providencia rettgeri|||Ceftolozane tazobactam": 65,
+    "Providencia rettgeri|||Ciprofloxacin": 80,
+    "Providencia rettgeri|||Colistin": 80,
+    "Providencia rettgeri|||Gentamicin": 80,
+    "Providencia rettgeri|||Imipenem": 80,
+    "Providencia rettgeri|||Levofloxacin": 80,
+    "Providencia rettgeri|||Meropenem": 80,
+    "Providencia rettgeri|||Meropenem vaborbactam": 65,
+    "Providencia rettgeri|||Pip/taz": 80,
+    "Providencia rettgeri|||Trimethoprim sulfa": 80,
+    "Pseudomonas aeruginosa|||Amikacin": 2703,
+    "Pseudomonas aeruginosa|||Cefepime": 2703,
+    "Pseudomonas aeruginosa|||Cefiderocol": 281,
+    "Pseudomonas aeruginosa|||Ceftazidime": 2703,
+    "Pseudomonas aeruginosa|||Ceftazidime avibactam": 2409,
+    "Pseudomonas aeruginosa|||Ceftolozane tazobactam": 1957,
+    "Pseudomonas aeruginosa|||Ciprofloxacin": 2409,
+    "Pseudomonas aeruginosa|||Colistin": 2409,
+    "Pseudomonas aeruginosa|||Imipenem": 2440,
+    "Pseudomonas aeruginosa|||Levofloxacin": 2703,
+    "Pseudomonas aeruginosa|||Meropenem": 2670,
+    "Pseudomonas aeruginosa|||Pip/taz": 2703,
+    "Serratia marcescens|||Amikacin": 274,
+    "Serratia marcescens|||Amoxy/clav": 274,
+    "Serratia marcescens|||Ampicillin": 274,
+    "Serratia marcescens|||Ampicillin sulbactam": 226,
+    "Serratia marcescens|||Cefepime": 274,
+    "Serratia marcescens|||Cefiderocol": 40,
+    "Serratia marcescens|||Ceftaroline": 226,
+    "Serratia marcescens|||Ceftazidime": 226,
+    "Serratia marcescens|||Ceftazidime avibactam": 226,
+    "Serratia marcescens|||Ceftibuten": 94,
+    "Serratia marcescens|||Ceftolozane tazobactam": 169,
+    "Serratia marcescens|||Ceftriaxone": 48,
+    "Serratia marcescens|||Ciprofloxacin": 226,
+    "Serratia marcescens|||Colistin": 226,
+    "Serratia marcescens|||Gentamicin": 226,
+    "Serratia marcescens|||Imipenem": 236,
+    "Serratia marcescens|||Levofloxacin": 274,
+    "Serratia marcescens|||Meropenem": 264,
+    "Serratia marcescens|||Meropenem vaborbactam": 169,
+    "Serratia marcescens|||Minocycline": 48,
+    "Serratia marcescens|||Pip/taz": 274,
+    "Serratia marcescens|||Trimethoprim sulfa": 226,
+    "Serratia spp|||Amikacin": 24,
+    "Serratia spp|||Amoxy/clav": 24,
+    "Serratia spp|||Ampicillin": 24,
+    "Serratia spp|||Ampicillin sulbactam": 24,
+    "Serratia spp|||Cefepime": 24,
+    "Serratia spp|||Ceftaroline": 24,
+    "Serratia spp|||Ceftazidime": 24,
+    "Serratia spp|||Ceftazidime avibactam": 24,
+    "Serratia spp|||Ceftibuten": 13,
+    "Serratia spp|||Ceftolozane tazobactam": 24,
+    "Serratia spp|||Ciprofloxacin": 24,
+    "Serratia spp|||Colistin": 24,
+    "Serratia spp|||Gentamicin": 24,
+    "Serratia spp|||Imipenem": 24,
+    "Serratia spp|||Levofloxacin": 24,
+    "Serratia spp|||Meropenem": 24,
+    "Serratia spp|||Meropenem vaborbactam": 24,
+    "Serratia spp|||Pip/taz": 24,
+    "Serratia spp|||Trimethoprim sulfa": 24,
+    "Staphylococcus Coagulase Negative|||Erythromycin": 19,
+    "Staphylococcus Coagulase Negative|||Gentamicin": 19,
+    "Staphylococcus Coagulase Negative|||Levofloxacin": 19,
+    "Staphylococcus Coagulase Negative|||Linezolid": 19,
+    "Staphylococcus Coagulase Negative|||Oxacillin": 19,
+    "Staphylococcus Coagulase Negative|||Teicoplanin": 19,
+    "Staphylococcus Coagulase Negative|||Trimethoprim sulfa": 19,
+    "Staphylococcus aureus|||Ceftaroline": 2022,
+    "Staphylococcus aureus|||Erythromycin": 2022,
+    "Staphylococcus aureus|||Gentamicin": 2022,
+    "Staphylococcus aureus|||Levofloxacin": 2296,
+    "Staphylococcus aureus|||Linezolid": 2296,
+    "Staphylococcus aureus|||Minocycline": 274,
+    "Staphylococcus aureus|||Oxacillin": 2022,
+    "Staphylococcus aureus|||Teicoplanin": 2022,
+    "Staphylococcus aureus|||Trimethoprim sulfa": 2022,
+    "Staphylococcus aureus|||Vancomycin": 2296,
+    "Staphylococcus epidermidis|||Erythromycin": 213,
+    "Staphylococcus epidermidis|||Gentamicin": 213,
+    "Staphylococcus epidermidis|||Levofloxacin": 213,
+    "Staphylococcus epidermidis|||Linezolid": 213,
+    "Staphylococcus epidermidis|||Oxacillin": 213,
+    "Staphylococcus epidermidis|||Teicoplanin": 213,
+    "Staphylococcus epidermidis|||Trimethoprim sulfa": 213,
+    "Staphylococcus haemolyticus|||Erythromycin": 190,
+    "Staphylococcus haemolyticus|||Gentamicin": 190,
+    "Staphylococcus haemolyticus|||Levofloxacin": 190,
+    "Staphylococcus haemolyticus|||Linezolid": 190,
+    "Staphylococcus haemolyticus|||Oxacillin": 190,
+    "Staphylococcus haemolyticus|||Teicoplanin": 190,
+    "Staphylococcus haemolyticus|||Trimethoprim sulfa": 190,
+    "Staphylococcus spp|||Erythromycin": 35,
+    "Staphylococcus spp|||Gentamicin": 35,
+    "Staphylococcus spp|||Levofloxacin": 35,
+    "Staphylococcus spp|||Linezolid": 35,
+    "Staphylococcus spp|||Oxacillin": 35,
+    "Staphylococcus spp|||Teicoplanin": 35,
+    "Staphylococcus spp|||Trimethoprim sulfa": 35,
+    "Streptococcus agalactiae|||Ampicillin": 12,
+    "Streptococcus agalactiae|||Ceftaroline": 141,
+    "Streptococcus agalactiae|||Ceftriaxone": 153,
+    "Streptococcus agalactiae|||Erythromycin": 141,
+    "Streptococcus agalactiae|||Levofloxacin": 153,
+    "Streptococcus agalactiae|||Linezolid": 153,
+    "Streptococcus agalactiae|||Meropenem": 153,
+    "Streptococcus agalactiae|||Penicillin": 153,
+    "Streptococcus agalactiae|||Vancomycin": 153,
+    "Streptococcus dysgalactiae|||Ceftaroline": 10,
+    "Streptococcus dysgalactiae|||Ceftriaxone": 10,
+    "Streptococcus dysgalactiae|||Erythromycin": 10,
+    "Streptococcus dysgalactiae|||Levofloxacin": 10,
+    "Streptococcus dysgalactiae|||Linezolid": 10,
+    "Streptococcus dysgalactiae|||Meropenem": 10,
+    "Streptococcus dysgalactiae|||Penicillin": 10,
+    "Streptococcus dysgalactiae|||Vancomycin": 10,
+    "Streptococcus pneumoniae|||Amoxy/clav": 43,
+    "Streptococcus pneumoniae|||Azithromycin": 23,
+    "Streptococcus pneumoniae|||Ceftaroline": 123,
+    "Streptococcus pneumoniae|||Ceftriaxone": 166,
+    "Streptococcus pneumoniae|||Clarithromycin": 23,
+    "Streptococcus pneumoniae|||Erythromycin": 146,
+    "Streptococcus pneumoniae|||Imipenem": 13,
+    "Streptococcus pneumoniae|||Levofloxacin": 166,
+    "Streptococcus pneumoniae|||Linezolid": 166,
+    "Streptococcus pneumoniae|||Meropenem": 152,
+    "Streptococcus pneumoniae|||Penicillin": 166,
+    "Streptococcus pneumoniae|||Vancomycin": 166,
+    "Streptococcus pyogenes|||Ceftaroline": 60,
+    "Streptococcus pyogenes|||Ceftriaxone": 60,
+    "Streptococcus pyogenes|||Erythromycin": 60,
+    "Streptococcus pyogenes|||Levofloxacin": 60,
+    "Streptococcus pyogenes|||Linezolid": 60,
+    "Streptococcus pyogenes|||Meropenem": 60,
+    "Streptococcus pyogenes|||Penicillin": 60,
+    "Streptococcus pyogenes|||Vancomycin": 60
+  },
+  "tested_pairs": [
+    [
+      "Acinetobacter baumannii",
+      "Amikacin"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Cefepime"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Cefiderocol"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Ceftazidime"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Ciprofloxacin"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Colistin"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Gentamicin"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Imipenem"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Levofloxacin"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Meropenem"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Pip/taz"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Amikacin"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Cefepime"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Ceftazidime"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Ciprofloxacin"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Colistin"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Gentamicin"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Imipenem"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Levofloxacin"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Meropenem"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Pip/taz"
+    ],
+    [
+      "Acinetobacter lactucae",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Amikacin"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Cefepime"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Ceftazidime"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Ciprofloxacin"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Colistin"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Gentamicin"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Imipenem"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Levofloxacin"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Meropenem"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Pip/taz"
+    ],
+    [
+      "Acinetobacter pitii",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Acinetobacter spp",
+      "Amikacin"
+    ],
+    [
+      "Acinetobacter spp",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Acinetobacter spp",
+      "Cefepime"
+    ],
+    [
+      "Acinetobacter spp",
+      "Ceftazidime"
+    ],
+    [
+      "Acinetobacter spp",
+      "Ciprofloxacin"
+    ],
+    [
+      "Acinetobacter spp",
+      "Colistin"
+    ],
+    [
+      "Acinetobacter spp",
+      "Gentamicin"
+    ],
+    [
+      "Acinetobacter spp",
+      "Imipenem"
+    ],
+    [
+      "Acinetobacter spp",
+      "Levofloxacin"
+    ],
+    [
+      "Acinetobacter spp",
+      "Meropenem"
+    ],
+    [
+      "Acinetobacter spp",
+      "Pip/taz"
+    ],
+    [
+      "Acinetobacter spp",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Acinetobacter, non-speciated",
+      "Amikacin"
+    ],
+    [
+      "Acinetobacter, non-speciated",
+      "Cefepime"
+    ],
+    [
+      "Acinetobacter, non-speciated",
+      "Ceftazidime"
+    ],
+    [
+      "Acinetobacter, non-speciated",
+      "Levofloxacin"
+    ],
+    [
+      "Acinetobacter, non-speciated",
+      "Meropenem"
+    ],
+    [
+      "Acinetobacter, non-speciated",
+      "Pip/taz"
+    ],
+    [
+      "Citrobacter diversus",
+      "Amikacin"
+    ],
+    [
+      "Citrobacter diversus",
+      "Amoxy/clav"
+    ],
+    [
+      "Citrobacter diversus",
+      "Ampicillin"
+    ],
+    [
+      "Citrobacter diversus",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Citrobacter diversus",
+      "Cefepime"
+    ],
+    [
+      "Citrobacter diversus",
+      "Ceftaroline"
+    ],
+    [
+      "Citrobacter diversus",
+      "Ceftazidime"
+    ],
+    [
+      "Citrobacter diversus",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Citrobacter diversus",
+      "Ciprofloxacin"
+    ],
+    [
+      "Citrobacter diversus",
+      "Colistin"
+    ],
+    [
+      "Citrobacter diversus",
+      "Gentamicin"
+    ],
+    [
+      "Citrobacter diversus",
+      "Imipenem"
+    ],
+    [
+      "Citrobacter diversus",
+      "Levofloxacin"
+    ],
+    [
+      "Citrobacter diversus",
+      "Meropenem"
+    ],
+    [
+      "Citrobacter diversus",
+      "Pip/taz"
+    ],
+    [
+      "Citrobacter diversus",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Citrobacter freundii",
+      "Amikacin"
+    ],
+    [
+      "Citrobacter freundii",
+      "Amoxy/clav"
+    ],
+    [
+      "Citrobacter freundii",
+      "Ampicillin"
+    ],
+    [
+      "Citrobacter freundii",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Citrobacter freundii",
+      "Cefepime"
+    ],
+    [
+      "Citrobacter freundii",
+      "Ceftaroline"
+    ],
+    [
+      "Citrobacter freundii",
+      "Ceftazidime"
+    ],
+    [
+      "Citrobacter freundii",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Citrobacter freundii",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Citrobacter freundii",
+      "Ciprofloxacin"
+    ],
+    [
+      "Citrobacter freundii",
+      "Colistin"
+    ],
+    [
+      "Citrobacter freundii",
+      "Gentamicin"
+    ],
+    [
+      "Citrobacter freundii",
+      "Imipenem"
+    ],
+    [
+      "Citrobacter freundii",
+      "Levofloxacin"
+    ],
+    [
+      "Citrobacter freundii",
+      "Meropenem"
+    ],
+    [
+      "Citrobacter freundii",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Citrobacter freundii",
+      "Pip/taz"
+    ],
+    [
+      "Citrobacter freundii",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Citrobacter koseri",
+      "Amikacin"
+    ],
+    [
+      "Citrobacter koseri",
+      "Amoxy/clav"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ampicillin"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Citrobacter koseri",
+      "Cefepime"
+    ],
+    [
+      "Citrobacter koseri",
+      "Cefiderocol"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ceftaroline"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ceftazidime"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ceftibuten"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Citrobacter koseri",
+      "Ciprofloxacin"
+    ],
+    [
+      "Citrobacter koseri",
+      "Colistin"
+    ],
+    [
+      "Citrobacter koseri",
+      "Gentamicin"
+    ],
+    [
+      "Citrobacter koseri",
+      "Imipenem"
+    ],
+    [
+      "Citrobacter koseri",
+      "Levofloxacin"
+    ],
+    [
+      "Citrobacter koseri",
+      "Meropenem"
+    ],
+    [
+      "Citrobacter koseri",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Citrobacter koseri",
+      "Pip/taz"
+    ],
+    [
+      "Citrobacter koseri",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Amikacin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Cefepime"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Cefiderocol"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftaroline"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftazidime"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftibuten"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftriaxone"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ciprofloxacin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Colistin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Gentamicin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Imipenem"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Meropenem"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Minocycline"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Amikacin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Cefepime"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Cefiderocol"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ceftaroline"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ceftazidime"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ceftibuten"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ciprofloxacin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Colistin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Gentamicin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Imipenem"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Meropenem"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Enterobacter spp",
+      "Amikacin"
+    ],
+    [
+      "Enterobacter spp",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter spp",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter spp",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Enterobacter spp",
+      "Cefepime"
+    ],
+    [
+      "Enterobacter spp",
+      "Ceftaroline"
+    ],
+    [
+      "Enterobacter spp",
+      "Ceftazidime"
+    ],
+    [
+      "Enterobacter spp",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Enterobacter spp",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Enterobacter spp",
+      "Ciprofloxacin"
+    ],
+    [
+      "Enterobacter spp",
+      "Colistin"
+    ],
+    [
+      "Enterobacter spp",
+      "Gentamicin"
+    ],
+    [
+      "Enterobacter spp",
+      "Imipenem"
+    ],
+    [
+      "Enterobacter spp",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter spp",
+      "Meropenem"
+    ],
+    [
+      "Enterobacter spp",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Enterobacter spp",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter spp",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Amikacin"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Cefepime"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Ceftazidime"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Ceftriaxone"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Meropenem"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Minocycline"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Pip/taz"
+    ],
+    [
+      "Escherichia coli",
+      "Amikacin"
+    ],
+    [
+      "Escherichia coli",
+      "Amoxy/clav"
+    ],
+    [
+      "Escherichia coli",
+      "Ampicillin"
+    ],
+    [
+      "Escherichia coli",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Escherichia coli",
+      "Cefepime"
+    ],
+    [
+      "Escherichia coli",
+      "Cefiderocol"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftaroline"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftazidime"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftibuten"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftriaxone"
+    ],
+    [
+      "Escherichia coli",
+      "Ciprofloxacin"
+    ],
+    [
+      "Escherichia coli",
+      "Colistin"
+    ],
+    [
+      "Escherichia coli",
+      "Gentamicin"
+    ],
+    [
+      "Escherichia coli",
+      "Imipenem"
+    ],
+    [
+      "Escherichia coli",
+      "Levofloxacin"
+    ],
+    [
+      "Escherichia coli",
+      "Meropenem"
+    ],
+    [
+      "Escherichia coli",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Escherichia coli",
+      "Minocycline"
+    ],
+    [
+      "Escherichia coli",
+      "Pip/taz"
+    ],
+    [
+      "Escherichia coli",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Amikacin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Cefepime"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ceftaroline"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ceftazidime"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ceftibuten"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ceftriaxone"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ciprofloxacin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Colistin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Gentamicin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Imipenem"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Meropenem"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Minocycline"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Amikacin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Cefepime"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ceftaroline"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ceftazidime"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ceftibuten"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ceftriaxone"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ciprofloxacin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Colistin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Gentamicin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Imipenem"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Meropenem"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Minocycline"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Amikacin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Cefepime"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Cefiderocol"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftaroline"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftazidime"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftibuten"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftriaxone"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ciprofloxacin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Colistin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Gentamicin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Imipenem"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Meropenem"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Minocycline"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Klebsiella spp",
+      "Amikacin"
+    ],
+    [
+      "Klebsiella spp",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella spp",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella spp",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Klebsiella spp",
+      "Cefepime"
+    ],
+    [
+      "Klebsiella spp",
+      "Ceftaroline"
+    ],
+    [
+      "Klebsiella spp",
+      "Ceftazidime"
+    ],
+    [
+      "Klebsiella spp",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Klebsiella spp",
+      "Ceftibuten"
+    ],
+    [
+      "Klebsiella spp",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Klebsiella spp",
+      "Ciprofloxacin"
+    ],
+    [
+      "Klebsiella spp",
+      "Colistin"
+    ],
+    [
+      "Klebsiella spp",
+      "Gentamicin"
+    ],
+    [
+      "Klebsiella spp",
+      "Imipenem"
+    ],
+    [
+      "Klebsiella spp",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella spp",
+      "Meropenem"
+    ],
+    [
+      "Klebsiella spp",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Klebsiella spp",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella spp",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Morganella morganii",
+      "Amikacin"
+    ],
+    [
+      "Morganella morganii",
+      "Amoxy/clav"
+    ],
+    [
+      "Morganella morganii",
+      "Ampicillin"
+    ],
+    [
+      "Morganella morganii",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Morganella morganii",
+      "Cefepime"
+    ],
+    [
+      "Morganella morganii",
+      "Cefiderocol"
+    ],
+    [
+      "Morganella morganii",
+      "Ceftaroline"
+    ],
+    [
+      "Morganella morganii",
+      "Ceftazidime"
+    ],
+    [
+      "Morganella morganii",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Morganella morganii",
+      "Ceftibuten"
+    ],
+    [
+      "Morganella morganii",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Morganella morganii",
+      "Ciprofloxacin"
+    ],
+    [
+      "Morganella morganii",
+      "Colistin"
+    ],
+    [
+      "Morganella morganii",
+      "Gentamicin"
+    ],
+    [
+      "Morganella morganii",
+      "Imipenem"
+    ],
+    [
+      "Morganella morganii",
+      "Levofloxacin"
+    ],
+    [
+      "Morganella morganii",
+      "Meropenem"
+    ],
+    [
+      "Morganella morganii",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Morganella morganii",
+      "Pip/taz"
+    ],
+    [
+      "Morganella morganii",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Proteus mirabilis",
+      "Amikacin"
+    ],
+    [
+      "Proteus mirabilis",
+      "Amoxy/clav"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ampicillin"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Proteus mirabilis",
+      "Cefepime"
+    ],
+    [
+      "Proteus mirabilis",
+      "Cefiderocol"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ceftaroline"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ceftazidime"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ceftibuten"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Proteus mirabilis",
+      "Ciprofloxacin"
+    ],
+    [
+      "Proteus mirabilis",
+      "Colistin"
+    ],
+    [
+      "Proteus mirabilis",
+      "Gentamicin"
+    ],
+    [
+      "Proteus mirabilis",
+      "Imipenem"
+    ],
+    [
+      "Proteus mirabilis",
+      "Levofloxacin"
+    ],
+    [
+      "Proteus mirabilis",
+      "Meropenem"
+    ],
+    [
+      "Proteus mirabilis",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Proteus mirabilis",
+      "Pip/taz"
+    ],
+    [
+      "Proteus mirabilis",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Proteus vulgaris",
+      "Amikacin"
+    ],
+    [
+      "Proteus vulgaris",
+      "Amoxy/clav"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ampicillin"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Proteus vulgaris",
+      "Cefepime"
+    ],
+    [
+      "Proteus vulgaris",
+      "Cefiderocol"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ceftaroline"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ceftazidime"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ceftibuten"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Proteus vulgaris",
+      "Ciprofloxacin"
+    ],
+    [
+      "Proteus vulgaris",
+      "Colistin"
+    ],
+    [
+      "Proteus vulgaris",
+      "Gentamicin"
+    ],
+    [
+      "Proteus vulgaris",
+      "Imipenem"
+    ],
+    [
+      "Proteus vulgaris",
+      "Levofloxacin"
+    ],
+    [
+      "Proteus vulgaris",
+      "Meropenem"
+    ],
+    [
+      "Proteus vulgaris",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Proteus vulgaris",
+      "Pip/taz"
+    ],
+    [
+      "Proteus vulgaris",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Providencia rettgeri",
+      "Amikacin"
+    ],
+    [
+      "Providencia rettgeri",
+      "Amoxy/clav"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ampicillin"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Providencia rettgeri",
+      "Cefepime"
+    ],
+    [
+      "Providencia rettgeri",
+      "Cefiderocol"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ceftaroline"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ceftazidime"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ceftibuten"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Providencia rettgeri",
+      "Ciprofloxacin"
+    ],
+    [
+      "Providencia rettgeri",
+      "Colistin"
+    ],
+    [
+      "Providencia rettgeri",
+      "Gentamicin"
+    ],
+    [
+      "Providencia rettgeri",
+      "Imipenem"
+    ],
+    [
+      "Providencia rettgeri",
+      "Levofloxacin"
+    ],
+    [
+      "Providencia rettgeri",
+      "Meropenem"
+    ],
+    [
+      "Providencia rettgeri",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Providencia rettgeri",
+      "Pip/taz"
+    ],
+    [
+      "Providencia rettgeri",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Amikacin"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Cefepime"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Cefiderocol"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Ceftazidime"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Ciprofloxacin"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Colistin"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Imipenem"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Levofloxacin"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Meropenem"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Pip/taz"
+    ],
+    [
+      "Serratia marcescens",
+      "Amikacin"
+    ],
+    [
+      "Serratia marcescens",
+      "Amoxy/clav"
+    ],
+    [
+      "Serratia marcescens",
+      "Ampicillin"
+    ],
+    [
+      "Serratia marcescens",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Serratia marcescens",
+      "Cefepime"
+    ],
+    [
+      "Serratia marcescens",
+      "Cefiderocol"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftaroline"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftazidime"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftibuten"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftriaxone"
+    ],
+    [
+      "Serratia marcescens",
+      "Ciprofloxacin"
+    ],
+    [
+      "Serratia marcescens",
+      "Colistin"
+    ],
+    [
+      "Serratia marcescens",
+      "Gentamicin"
+    ],
+    [
+      "Serratia marcescens",
+      "Imipenem"
+    ],
+    [
+      "Serratia marcescens",
+      "Levofloxacin"
+    ],
+    [
+      "Serratia marcescens",
+      "Meropenem"
+    ],
+    [
+      "Serratia marcescens",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Serratia marcescens",
+      "Minocycline"
+    ],
+    [
+      "Serratia marcescens",
+      "Pip/taz"
+    ],
+    [
+      "Serratia marcescens",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Serratia spp",
+      "Amikacin"
+    ],
+    [
+      "Serratia spp",
+      "Amoxy/clav"
+    ],
+    [
+      "Serratia spp",
+      "Ampicillin"
+    ],
+    [
+      "Serratia spp",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Serratia spp",
+      "Cefepime"
+    ],
+    [
+      "Serratia spp",
+      "Ceftaroline"
+    ],
+    [
+      "Serratia spp",
+      "Ceftazidime"
+    ],
+    [
+      "Serratia spp",
+      "Ceftazidime avibactam"
+    ],
+    [
+      "Serratia spp",
+      "Ceftibuten"
+    ],
+    [
+      "Serratia spp",
+      "Ceftolozane tazobactam"
+    ],
+    [
+      "Serratia spp",
+      "Ciprofloxacin"
+    ],
+    [
+      "Serratia spp",
+      "Colistin"
+    ],
+    [
+      "Serratia spp",
+      "Gentamicin"
+    ],
+    [
+      "Serratia spp",
+      "Imipenem"
+    ],
+    [
+      "Serratia spp",
+      "Levofloxacin"
+    ],
+    [
+      "Serratia spp",
+      "Meropenem"
+    ],
+    [
+      "Serratia spp",
+      "Meropenem vaborbactam"
+    ],
+    [
+      "Serratia spp",
+      "Pip/taz"
+    ],
+    [
+      "Serratia spp",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Staphylococcus Coagulase Negative",
+      "Erythromycin"
+    ],
+    [
+      "Staphylococcus Coagulase Negative",
+      "Gentamicin"
+    ],
+    [
+      "Staphylococcus Coagulase Negative",
+      "Levofloxacin"
+    ],
+    [
+      "Staphylococcus Coagulase Negative",
+      "Linezolid"
+    ],
+    [
+      "Staphylococcus Coagulase Negative",
+      "Oxacillin"
+    ],
+    [
+      "Staphylococcus Coagulase Negative",
+      "Teicoplanin"
+    ],
+    [
+      "Staphylococcus Coagulase Negative",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Ceftaroline"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Erythromycin"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Gentamicin"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Levofloxacin"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Linezolid"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Minocycline"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Oxacillin"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Teicoplanin"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Vancomycin"
+    ],
+    [
+      "Staphylococcus epidermidis",
+      "Erythromycin"
+    ],
+    [
+      "Staphylococcus epidermidis",
+      "Gentamicin"
+    ],
+    [
+      "Staphylococcus epidermidis",
+      "Levofloxacin"
+    ],
+    [
+      "Staphylococcus epidermidis",
+      "Linezolid"
+    ],
+    [
+      "Staphylococcus epidermidis",
+      "Oxacillin"
+    ],
+    [
+      "Staphylococcus epidermidis",
+      "Teicoplanin"
+    ],
+    [
+      "Staphylococcus epidermidis",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Staphylococcus haemolyticus",
+      "Erythromycin"
+    ],
+    [
+      "Staphylococcus haemolyticus",
+      "Gentamicin"
+    ],
+    [
+      "Staphylococcus haemolyticus",
+      "Levofloxacin"
+    ],
+    [
+      "Staphylococcus haemolyticus",
+      "Linezolid"
+    ],
+    [
+      "Staphylococcus haemolyticus",
+      "Oxacillin"
+    ],
+    [
+      "Staphylococcus haemolyticus",
+      "Teicoplanin"
+    ],
+    [
+      "Staphylococcus haemolyticus",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Staphylococcus spp",
+      "Erythromycin"
+    ],
+    [
+      "Staphylococcus spp",
+      "Gentamicin"
+    ],
+    [
+      "Staphylococcus spp",
+      "Levofloxacin"
+    ],
+    [
+      "Staphylococcus spp",
+      "Linezolid"
+    ],
+    [
+      "Staphylococcus spp",
+      "Oxacillin"
+    ],
+    [
+      "Staphylococcus spp",
+      "Teicoplanin"
+    ],
+    [
+      "Staphylococcus spp",
+      "Trimethoprim sulfa"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Ampicillin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Ceftaroline"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Ceftriaxone"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Erythromycin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Levofloxacin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Linezolid"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Meropenem"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Penicillin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Vancomycin"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Ceftaroline"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Ceftriaxone"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Erythromycin"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Levofloxacin"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Linezolid"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Meropenem"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Penicillin"
+    ],
+    [
+      "Streptococcus dysgalactiae",
+      "Vancomycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Amoxy/clav"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Azithromycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Ceftaroline"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Ceftriaxone"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Clarithromycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Erythromycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Imipenem"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Levofloxacin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Linezolid"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Meropenem"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Penicillin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Vancomycin"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Ceftaroline"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Ceftriaxone"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Erythromycin"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Levofloxacin"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Linezolid"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Meropenem"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Penicillin"
+    ],
+    [
+      "Streptococcus pyogenes",
+      "Vancomycin"
+    ]
+  ],
+  "holdout_auc": 0.8108659930752217,
+  "holdout_brier": 0.1765685622003502,
+  "holdout_year": 2024,
+  "warning": null
+}

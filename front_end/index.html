@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMRGuard — Antibiotic Decision Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+</head>
+<body>
+
+<div class="plate-grid" aria-hidden="true"></div>
+
+<div class="app">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/>
+          <circle cx="12" cy="12" r="3.2" fill="currentColor"/>
+          <circle cx="12" cy="4" r="1.1" fill="currentColor"/>
+          <circle cx="12" cy="20" r="1.1" fill="currentColor"/>
+          <circle cx="4" cy="12" r="1.1" fill="currentColor"/>
+          <circle cx="20" cy="12" r="1.1" fill="currentColor"/>
+        </svg>
+      </span>
+      <div class="brand-text">
+        <span class="brand-name">AMRGuard</span>
+        <span class="brand-sub">Antibiotic Decision Support</span>
+      </div>
+    </div>
+    <div class="status-pill">
+      <span class="status-dot"></span>
+      Surveillance data connected
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- LANDING / TITLE PAGE -->
+    <section id="view-landing" class="view view-active landing">
+      <div class="landing-inner">
+        <span class="landing-brand">AMRGuard</span>
+        <h1 class="landing-tagline">Outsmarting resistance,<br>one prescription at a time.</h1>
+        <p class="landing-sub">Antibiotic decision support, built on real resistance surveillance data.</p>
+        <button class="landing-enter" id="enter-tool">Enter &rarr;</button>
+      </div>
+    </section>
+
+    <!-- STEP 0: choose path -->
+    <section id="view-select" class="view">
+      <div id="mol-bg" aria-hidden="true"></div>
+      <button class="back-link" data-back="view-landing">&larr; Home</button>
+      <h1 class="page-title">What are you starting from?</h1>
+      <p class="page-sub">Choose a pathway to generate a prescribing recommendation.</p>
+
+      <div class="path-grid">
+        <button class="path-card" data-path="known">
+          <span class="path-index">01</span>
+          <span class="path-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 3v4M12 17v4M3 12h4M17 12h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <circle cx="12" cy="12" r="5.2" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </span>
+          <span class="path-title">Pathogen identified</span>
+          <span class="path-desc">Select the country and organism from a culture or lab report to view targeted options.</span>
+        </button>
+
+        <button class="path-card" data-path="empiric">
+          <span class="path-index">02</span>
+          <span class="path-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 20V10l8-6 8 6v10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <path d="M9 20v-6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span class="path-title">Pathogen unknown</span>
+          <span class="path-desc">Get empiric guidance based on country-level resistance surveillance.</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- STEP 1a: known pathogen -->
+    <section id="view-pathogen" class="view">
+      <button class="back-link" data-back="view-select">&larr; Back</button>
+      <h1 class="page-title">Select country and pathogen</h1>
+      <p class="page-sub">Recommendations are drawn from that country's local susceptibility records.</p>
+
+      <form id="known-form" class="empiric-form">
+        <div class="field">
+          <label for="known-country">Country</label>
+          <select id="known-country" required>
+            <option value="" disabled selected>Select country&hellip;</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="known-species">Pathogen (species)</label>
+          <select id="known-species" required>
+            <option value="" disabled selected>Select country first&hellip;</option>
+          </select>
+        </div>
+        <details class="allergy-field">
+          <summary>Patient allergies (optional)</summary>
+          <div id="known-allergies" class="allergy-grid"></div>
+          <label class="toggle-row">
+            <input type="checkbox" id="known-exclude-toggle">
+            Hide flagged drugs instead of just warning
+          </label>
+        </details>
+        <details class="allergy-field">
+          <summary>Patient conditions (optional)</summary>
+          <div id="known-conditions" class="allergy-grid"></div>
+        </details>
+        <div class="field">
+          <label for="known-topn">Number of recommendations</label>
+          <select id="known-topn">
+            <option value="5" selected>5</option>
+            <option value="3">3</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <button type="submit" class="submit-btn">Get recommendation</button>
+      </form>
+    </section>
+
+    <!-- STEP 1b: empiric by country -->
+    <section id="view-empiric" class="view">
+      <button class="back-link" data-back="view-select">&larr; Back</button>
+      <h1 class="page-title">Empiric guidance</h1>
+      <p class="page-sub">Based on regional AST (antibiotic susceptibility testing) surveillance data.</p>
+
+      <form id="empiric-form" class="empiric-form">
+        <div class="field">
+          <label for="country-select">Country</label>
+          <select id="country-select" required>
+            <option value="" disabled selected>Select country&hellip;</option>
+          </select>
+        </div>
+        <details class="allergy-field">
+          <summary>Patient allergies (optional)</summary>
+          <div id="empiric-allergies" class="allergy-grid"></div>
+          <label class="toggle-row">
+            <input type="checkbox" id="empiric-exclude-toggle">
+            Hide flagged drugs instead of just warning
+          </label>
+        </details>
+        <details class="allergy-field">
+          <summary>Patient conditions (optional)</summary>
+          <div id="empiric-conditions" class="allergy-grid"></div>
+        </details>
+        <div class="field">
+          <label for="empiric-topn">Number of recommendations</label>
+          <select id="empiric-topn">
+            <option value="5" selected>5</option>
+            <option value="3">3</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <button type="submit" class="submit-btn">Get recommendation</button>
+      </form>
+    </section>
+
+    <!-- STEP 2: results -->
+    <section id="view-results" class="view">
+      <button class="back-link" id="results-back">&larr; Back</button>
+      <div class="results-head">
+        <h1 class="page-title" id="results-title">Recommendation</h1>
+        <p class="page-sub" id="results-sub"></p>
+      </div>
+
+      <p class="ranking-note" id="ranking-note" hidden>
+        ℹ️ For empiric therapy, drugs are ranked by <strong>effectiveness × local coverage</strong>,
+        so a broader-spectrum drug can rank above a more potent but narrower one.
+        The % shown is predicted susceptibility.
+      </p>
+
+      <div class="table-wrap">
+        <table class="rx-table">
+          <thead>
+            <tr>
+              <th>Antibiotic</th>
+              <th>Susceptibility</th>
+              <th>Confidence</th>
+              <th>WHO AWaRe</th>
+            </tr>
+          </thead>
+          <tbody id="rx-table-body"></tbody>
+        </table>
+      </div>
+      <p id="allergy-excluded-note" class="allergy-excluded-note" hidden></p>
+
+      <p class="disclaimer">
+        Decision-support reference only — confirm against current local antibiogram
+        data and institutional guidelines before prescribing.
+      </p>
+    </section>
+
+    <div id="error-banner" class="error-banner" hidden></div>
+
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

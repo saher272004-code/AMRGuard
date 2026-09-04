@@ -1,0 +1,242 @@
+country,species,isolate_count,prevalence
+China,Acinetobacter baumannii,21800.0,0.054470313679044924
+China,Acinetobacter dijkshoorniae,156.0,0.0003897875657766517
+China,Acinetobacter nosocomialis,1020.0,0.0025486110070011845
+China,Acinetobacter pitii,792.0,0.001978921487789155
+China,Acinetobacter spp,2889.0,0.007218565881594531
+China,"Acinetobacter, non-speciated",1080.0,0.0026985293015306657
+China,Citrobacter freundii,5766.0,0.014407148104283165
+China,Citrobacter koseri,2508.0,0.006266584711332324
+China,Citrobacter spp,556.0,0.0013892428626398612
+China,"Citrobacter, non-speciated",1638.0,0.004092769440654843
+China,Enterobacter asburiae,386.0,0.0009644743614729973
+China,Enterobacter bugandensis,1205.0,0.0030108590818004187
+China,Enterobacter cloacae,11916.0,0.029773773293555014
+China,Enterobacter hormaechi,5042.0,0.012598134016960756
+China,Enterobacter spp,3622.0,0.009050067713096362
+China,"Enterobacter, non-speciated",1904.0,0.004757407213068878
+China,Escherichia coli,76585.0,0.19135820977567225
+China,Klebsiella aerogenes,7237.0,0.01808264495849762
+China,Klebsiella oxytoca,5811.0,0.014519586825180278
+China,Klebsiella pneumoniae,72620.0,0.18145110914551568
+China,Klebsiella spp,468.0,0.0011693626973299552
+China,Klebsiella variicola,1605.0,0.004010314378663628
+China,"Klebsiella, non-speciated",2336.0,0.005836818933681143
+China,Morganella morganii,6057.0,0.01513425183275115
+China,Proteus mirabilis,9858.0,0.0246315757911938
+China,Proteus vulgaris,3253.0,0.008128070201740051
+China,Providencia rettgeri,934.0,0.0023337281181755945
+China,"Providencia, non-speciated",470.0,0.0011743599738142712
+China,Pseudomonas aeruginosa,44193.0,0.11042231983568955
+China,Serratia marcescens,9643.0,0.024094368569129825
+China,Serratia spp,1746.0,0.00436262237080791
+China,Staphylococcus Coagulase Negative,1359.0,0.0033956493710927543
+China,Staphylococcus aureus,67471.0,0.16858562083664402
+China,Staphylococcus epidermidis,3810.0,0.009519811702622071
+China,Staphylococcus haemolyticus,3051.0,0.007623345276824131
+China,Staphylococcus hominis,126.0,0.000314828418511911
+China,Staphylococcus spp,112.0,0.0002798474831216987
+China,Streptococcus agalactiae,5126.0,0.012808019629302031
+China,Streptococcus anginosus,126.0,0.000314828418511911
+China,Streptococcus pneumoniae,11896.0,0.029723800528711854
+China,Streptococcus pyogenes,1637.0,0.004090270802412685
+China,"Streptococcus, Beta Hemolytic",408.0,0.0010194444028004737
+Hong Kong,Acinetobacter baumannii,1146.0,0.043081087177173794
+Hong Kong,Enterobacter cloacae,1064.0,0.03999849629713169
+Hong Kong,Enterobacter spp,378.0,0.014209992105559942
+Hong Kong,Escherichia coli,6959.0,0.2616067065147927
+Hong Kong,Klebsiella aerogenes,359.0,0.01349573324311116
+Hong Kong,Klebsiella pneumoniae,5709.0,0.21461599188000452
+Hong Kong,Morganella morganii,234.0,0.008796661779632344
+Hong Kong,Proteus mirabilis,432.0,0.01623999097778279
+Hong Kong,Pseudomonas aeruginosa,3823.0,0.14371640163903612
+Hong Kong,Serratia marcescens,369.0,0.013871658960189466
+Hong Kong,Staphylococcus aureus,3803.0,0.14296455020487953
+Hong Kong,Streptococcus agalactiae,617.0,0.02319461674373144
+Hong Kong,Streptococcus pneumoniae,1708.0,0.06420811247697455
+India,Acinetobacter baumannii,16550.0,0.07974212697066646
+India,Acinetobacter lactucae,120.0,0.0005781906487299079
+India,Acinetobacter pitii,216.0,0.0010407431677138341
+India,Acinetobacter spp,1620.0,0.007805573757853756
+India,"Acinetobacter, non-speciated",96.0,0.0004625525189839263
+India,Citrobacter diversus,160.0,0.0007709208649732105
+India,Citrobacter freundii,396.0,0.001908029140808696
+India,Citrobacter koseri,3073.0,0.014806498862891725
+India,Enterobacter cloacae,5454.0,0.026278764984774314
+India,Enterobacter hormaechi,2307.0,0.01111571522183248
+India,Enterobacter spp,1044.0,0.005030258643950199
+India,"Enterobacter, non-speciated",388.0,0.0018694830975600355
+India,Escherichia coli,50751.0,0.24453128011409628
+India,Klebsiella aerogenes,721.0,0.0034739621477855296
+India,Klebsiella oxytoca,307.0,0.0014792044096673476
+India,Klebsiella pneumoniae,56125.0,0.27042458466638397
+India,Klebsiella spp,190.0,0.0009154685271556875
+India,Morganella morganii,3156.0,0.015206414061596576
+India,Proteus mirabilis,4541.0,0.02187969779902093
+India,Proteus vulgaris,200.0,0.0009636510812165132
+India,Providencia rettgeri,1456.0,0.007015379871256215
+India,Pseudomonas aeruginosa,28090.0,0.13534479435685925
+India,Serratia marcescens,4520.0,0.021778514435493196
+India,Serratia spp,445.0,0.002144123655706742
+India,Staphylococcus Coagulase Negative,133.0,0.0006408279690089812
+India,Staphylococcus aureus,19294.0,0.09296341980495702
+India,Staphylococcus epidermidis,1491.0,0.007184018810469105
+India,Staphylococcus haemolyticus,1330.0,0.006408279690089812
+India,Staphylococcus spp,245.0,0.0011804725744902285
+India,Streptococcus agalactiae,1212.0,0.00583972555217207
+India,Streptococcus dysgalactiae,80.0,0.00038546043248660524
+India,Streptococcus pneumoniae,1353.0,0.006519099564429711
+India,Streptococcus pyogenes,480.0,0.0023127625949196317
+Japan,Acinetobacter baumannii,2153.0,0.026991449991224332
+Japan,Acinetobacter nosocomialis,396.0,0.004964521224581902
+Japan,Citrobacter freundii,461.0,0.00577940475891984
+Japan,Enterobacter cloacae,2409.0,0.030200837449539903
+Japan,Enterobacter hormaechi,342.0,0.004287541057593461
+Japan,Enterobacter spp,342.0,0.004287541057593461
+Japan,Escherichia coli,15074.0,0.18897775994784746
+Japan,Klebsiella aerogenes,2828.0,0.03545370207857985
+Japan,Klebsiella oxytoca,3087.0,0.03870069954617256
+Japan,Klebsiella pneumoniae,10355.0,0.1298172153549131
+Japan,Klebsiella variicola,1531.0,0.01919364140109821
+Japan,Morganella morganii,568.0,0.007120828423137678
+Japan,Proteus mirabilis,390.0,0.004889301206027631
+Japan,Proteus vulgaris,156.0,0.0019557204824110523
+Japan,Pseudomonas aeruginosa,10973.0,0.13756487726600305
+Japan,Serratia marcescens,1722.0,0.021588145325075848
+Japan,Staphylococcus aureus,17710.0,0.22202442143269063
+Japan,Staphylococcus epidermidis,1091.0,0.013677506707118321
+Japan,Staphylococcus haemolyticus,413.0,0.00517764461048567
+Japan,Staphylococcus spp,182.0,0.0022816738961462277
+Japan,Streptococcus agalactiae,1317.0,0.016510794072662538
+Japan,Streptococcus pneumoniae,5377.0,0.06740967329438607
+Japan,Streptococcus pyogenes,889.0,0.01114509941579119
+Malaysia,Acinetobacter baumannii,4980.0,0.07943850693890572
+Malaysia,Acinetobacter spp,324.0,0.005168288403254107
+Malaysia,Citrobacter koseri,843.0,0.01344712075291115
+Malaysia,Enterobacter cloacae,1831.0,0.02920721008135269
+Malaysia,Enterobacter hormaechi,930.0,0.014834901898229383
+Malaysia,Enterobacter spp,288.0,0.004594034136225874
+Malaysia,Escherichia coli,11948.0,0.19058861062370394
+Malaysia,Klebsiella aerogenes,312.0,0.004976870314244696
+Malaysia,Klebsiella pneumoniae,13900.0,0.22172595310256818
+Malaysia,Morganella morganii,430.0,0.006859148189503908
+Malaysia,Proteus mirabilis,990.0,0.01579199234327644
+Malaysia,Pseudomonas aeruginosa,8875.0,0.14156962832987718
+Malaysia,Serratia marcescens,1126.0,0.01796139735204977
+Malaysia,Staphylococcus aureus,11097.0,0.17701387781145317
+Malaysia,Staphylococcus epidermidis,485.0,0.007736481097463711
+Malaysia,Staphylococcus haemolyticus,344.0,0.005487318551603127
+Malaysia,Streptococcus agalactiae,1096.0,0.01748285212952624
+Malaysia,Streptococcus pneumoniae,2570.0,0.04099537406284894
+Malaysia,Streptococcus pyogenes,321.0,0.005120433881001755
+Pakistan,Acinetobacter baumannii,480.0,0.07939133311280185
+Pakistan,Enterobacter cloacae,851.0,0.1407542176645716
+Pakistan,Escherichia coli,1227.0,0.20294409526959972
+Pakistan,Klebsiella oxytoca,88.0,0.014555077737347006
+Pakistan,Klebsiella pneumoniae,1151.0,0.19037380086007277
+Pakistan,Pseudomonas aeruginosa,647.0,0.10701290109163084
+Pakistan,Serratia marcescens,315.0,0.052100562355276214
+Pakistan,Staphylococcus aureus,444.0,0.07343698312934172
+Pakistan,Streptococcus agalactiae,284.0,0.04697320542507443
+Pakistan,Streptococcus pneumoniae,559.0,0.09245782335428382
+Philippines,Acinetobacter baumannii,3745.0,0.030910306461863532
+Philippines,Acinetobacter nosocomialis,144.0,0.001188540488787276
+Philippines,Acinetobacter spp,144.0,0.001188540488787276
+Philippines,Citrobacter freundii,587.0,0.004844953242487021
+Philippines,Citrobacter koseri,1153.0,0.009516577663692564
+Philippines,Enterobacter asburiae,96.0,0.0007923603258581841
+Philippines,Enterobacter bugandensis,198.0,0.0016342431720825046
+Philippines,Enterobacter cloacae,4556.0,0.03760410046468632
+Philippines,Enterobacter hormaechi,585.0,0.0048284457356983085
+Philippines,Enterobacter spp,486.0,0.004011324149657057
+Philippines,Escherichia coli,21509.0,0.177529981759205
+Philippines,Klebsiella aerogenes,1282.0,0.010581311851564499
+Philippines,Klebsiella oxytoca,767.0,0.006330628853471116
+Philippines,Klebsiella pneumoniae,23368.0,0.19287370931931297
+Philippines,Morganella morganii,742.0,0.0061242850186122135
+Philippines,Proteus mirabilis,3392.0,0.027996731513655834
+Philippines,Proteus vulgaris,286.0,0.00236057347078584
+Philippines,Pseudomonas aeruginosa,15740.0,0.12991407842716476
+Philippines,Serratia marcescens,2451.0,0.02022994956956676
+Philippines,Staphylococcus aureus,27954.0,0.23072542238582996
+Philippines,Staphylococcus epidermidis,2207.0,0.018216033741343875
+Philippines,Staphylococcus haemolyticus,1325.0,0.01093622324752181
+Philippines,Staphylococcus hominis,108.0,0.000891405366590457
+Philippines,Staphylococcus spp,77.0,0.0006355390113654184
+Philippines,Streptococcus agalactiae,848.0,0.006999182878413958
+Philippines,Streptococcus dysgalactiae,390.0,0.0032189638237988725
+Philippines,Streptococcus pneumoniae,4470.0,0.036894277672771696
+Philippines,Streptococcus pyogenes,2547.0,0.021022309895424945
+Singapore,Acinetobacter baumannii,917.0,0.07564758290711104
+Singapore,Enterobacter cloacae,1453.0,0.1198647087939284
+Singapore,Escherichia coli,2466.0,0.20343177693449926
+Singapore,Klebsiella aerogenes,198.0,0.016333938294010888
+Singapore,Klebsiella pneumoniae,2373.0,0.19575977561458505
+Singapore,Pseudomonas aeruginosa,1360.0,0.11219270747401419
+Singapore,Serratia marcescens,513.0,0.04231974921630094
+Singapore,Staphylococcus aureus,1162.0,0.0958587691800033
+Singapore,Streptococcus agalactiae,520.0,0.04289721168124072
+Singapore,Streptococcus pneumoniae,1160.0,0.09569377990430622
+South Korea,Acinetobacter baumannii,8159.0,0.05514700912470429
+South Korea,Acinetobacter nosocomialis,120.0,0.0008110848259547145
+South Korea,Acinetobacter spp,288.0,0.0019466035822913147
+South Korea,Citrobacter freundii,1428.0,0.009651909428861101
+South Korea,Citrobacter koseri,100.0,0.0006759040216289286
+South Korea,Enterobacter cloacae,5080.0,0.03433592429874958
+South Korea,Enterobacter hormaechi,737.0,0.004981412639405204
+South Korea,Enterobacter spp,820.0,0.005542412977357215
+South Korea,Escherichia coli,38864.0,0.2626833389658668
+South Korea,Klebsiella aerogenes,4329.0,0.029259885096316322
+South Korea,Klebsiella oxytoca,2209.0,0.014930719837783034
+South Korea,Klebsiella pneumoniae,24080.0,0.16275768840824603
+South Korea,Morganella morganii,784.0,0.005299087529570801
+South Korea,Proteus mirabilis,1628.0,0.01100371747211896
+South Korea,Proteus vulgaris,170.0,0.0011490368367691789
+South Korea,Pseudomonas aeruginosa,11713.0,0.07916863805339641
+South Korea,Serratia marcescens,1692.0,0.011436296045961473
+South Korea,Staphylococcus aureus,28975.0,0.19584319026698208
+South Korea,Staphylococcus capitis,126.0,0.0008516390672524502
+South Korea,Staphylococcus epidermidis,2240.0,0.015140250084488003
+South Korea,Staphylococcus haemolyticus,721.0,0.004873267995944576
+South Korea,Streptococcus agalactiae,2608.0,0.01762757688408246
+South Korea,Streptococcus dysgalactiae,270.0,0.0018249408583981075
+South Korea,Streptococcus pneumoniae,9741.0,0.06583981074687395
+South Korea,Streptococcus pyogenes,1068.0,0.007218654950996959
+Taiwan,Enterobacter asburiae,40.0,0.0015105169744345003
+Taiwan,Enterobacter cloacae,2031.0,0.07669649937691175
+Taiwan,Enterobacter hormaechi,686.0,0.02590536611155168
+Taiwan,Enterobacter spp,364.0,0.013745704467353952
+Taiwan,"Enterobacter, non-speciated",77.0,0.002907745175786413
+Taiwan,Escherichia coli,10081.0,0.3806880404818549
+Taiwan,Klebsiella aerogenes,1418.0,0.05354782674370303
+Taiwan,Klebsiella oxytoca,698.0,0.02635852120388203
+Taiwan,Klebsiella pneumoniae,10242.0,0.3867678713039538
+Taiwan,Morganella morganii,844.0,0.03187190816056795
+Thailand,Acinetobacter baumannii,8335.0,0.06116623125018346
+Thailand,Acinetobacter spp,720.0,0.005283705638888073
+Thailand,Citrobacter freundii,882.0,0.00647253940763789
+Thailand,Citrobacter koseri,1619.0,0.011880999207444154
+Thailand,Enterobacter asburiae,160.0,0.0011741568086417941
+Thailand,Enterobacter bugandensis,270.0,0.0019813896145830278
+Thailand,Enterobacter cloacae,5595.0,0.04105879590219274
+Thailand,Enterobacter hormaechi,794.0,0.005826753162884903
+Thailand,Enterobacter spp,666.0,0.004887427715971468
+Thailand,Escherichia coli,23337.0,0.17125810902045968
+Thailand,Klebsiella aerogenes,2091.0,0.015344761792937447
+Thailand,Klebsiella oxytoca,1115.0,0.008182405260222504
+Thailand,Klebsiella pneumoniae,25874.0,0.18987583291748614
+Thailand,Morganella morganii,1675.0,0.012291954090468783
+Thailand,Proteus hauseri,240.0,0.0017612352129626912
+Thailand,Proteus mirabilis,2682.0,0.019681803504858073
+Thailand,Proteus vulgaris,637.0,0.004674611794405143
+Thailand,Pseudomonas aeruginosa,17337.0,0.1272272286963924
+Thailand,Serratia marcescens,2448.0,0.01796459917221945
+Thailand,Staphylococcus Coagulase Negative,84.0,0.0006164323245369419
+Thailand,Staphylococcus aureus,25417.0,0.186522147532803
+Thailand,Staphylococcus epidermidis,1601.0,0.011748906566471953
+Thailand,Staphylococcus haemolyticus,1722.0,0.012636862653007308
+Thailand,Staphylococcus spp,161.0,0.0011814952886958054
+Thailand,Streptococcus agalactiae,1914.0,0.014045850823377462
+Thailand,Streptococcus dysgalactiae,351.0,0.0025758064989579357
+Thailand,Streptococcus pneumoniae,6077.0,0.04459594328822614
+Thailand,Streptococcus pyogenes,2464.0,0.01808201485308363

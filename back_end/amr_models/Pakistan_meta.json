@@ -1,0 +1,467 @@
+{
+  "country": "Pakistan",
+  "n_rows": 532,
+  "n_species": 10,
+  "n_antibiotics": 16,
+  "years": [
+    2004,
+    2005,
+    2006,
+    2015,
+    2016,
+    2017
+  ],
+  "species_categories": [
+    "Acinetobacter baumannii",
+    "Enterobacter cloacae",
+    "Escherichia coli",
+    "Klebsiella oxytoca",
+    "Klebsiella pneumoniae",
+    "Pseudomonas aeruginosa",
+    "Serratia marcescens",
+    "Staphylococcus aureus",
+    "Streptococcus agalactiae",
+    "Streptococcus pneumoniae"
+  ],
+  "antibiotic_categories": [
+    "Amikacin",
+    "Amoxy/clav",
+    "Ampicillin",
+    "Azithromycin",
+    "Cefepime",
+    "Ceftazidime",
+    "Ceftriaxone",
+    "Clarithromycin",
+    "Erythromycin",
+    "Imipenem",
+    "Levofloxacin",
+    "Linezolid",
+    "Meropenem",
+    "Penicillin",
+    "Pip/taz",
+    "Vancomycin"
+  ],
+  "combo_support": {
+    "Acinetobacter baumannii|||Amikacin": 80,
+    "Acinetobacter baumannii|||Cefepime": 80,
+    "Acinetobacter baumannii|||Ceftazidime": 80,
+    "Acinetobacter baumannii|||Imipenem": 40,
+    "Acinetobacter baumannii|||Levofloxacin": 80,
+    "Acinetobacter baumannii|||Meropenem": 40,
+    "Acinetobacter baumannii|||Pip/taz": 80,
+    "Enterobacter cloacae|||Amikacin": 99,
+    "Enterobacter cloacae|||Amoxy/clav": 99,
+    "Enterobacter cloacae|||Ampicillin": 99,
+    "Enterobacter cloacae|||Cefepime": 99,
+    "Enterobacter cloacae|||Ceftazidime": 60,
+    "Enterobacter cloacae|||Ceftriaxone": 99,
+    "Enterobacter cloacae|||Imipenem": 38,
+    "Enterobacter cloacae|||Levofloxacin": 99,
+    "Enterobacter cloacae|||Meropenem": 60,
+    "Enterobacter cloacae|||Pip/taz": 99,
+    "Escherichia coli|||Amikacin": 144,
+    "Escherichia coli|||Amoxy/clav": 144,
+    "Escherichia coli|||Ampicillin": 144,
+    "Escherichia coli|||Cefepime": 144,
+    "Escherichia coli|||Ceftazidime": 75,
+    "Escherichia coli|||Ceftriaxone": 144,
+    "Escherichia coli|||Imipenem": 69,
+    "Escherichia coli|||Levofloxacin": 144,
+    "Escherichia coli|||Meropenem": 75,
+    "Escherichia coli|||Pip/taz": 144,
+    "Klebsiella oxytoca|||Amikacin": 11,
+    "Klebsiella oxytoca|||Amoxy/clav": 11,
+    "Klebsiella oxytoca|||Ampicillin": 11,
+    "Klebsiella oxytoca|||Cefepime": 11,
+    "Klebsiella oxytoca|||Ceftriaxone": 11,
+    "Klebsiella oxytoca|||Imipenem": 11,
+    "Klebsiella oxytoca|||Levofloxacin": 11,
+    "Klebsiella oxytoca|||Pip/taz": 11,
+    "Klebsiella pneumoniae|||Amikacin": 136,
+    "Klebsiella pneumoniae|||Amoxy/clav": 136,
+    "Klebsiella pneumoniae|||Ampicillin": 136,
+    "Klebsiella pneumoniae|||Cefepime": 136,
+    "Klebsiella pneumoniae|||Ceftazidime": 74,
+    "Klebsiella pneumoniae|||Ceftriaxone": 136,
+    "Klebsiella pneumoniae|||Imipenem": 51,
+    "Klebsiella pneumoniae|||Levofloxacin": 136,
+    "Klebsiella pneumoniae|||Meropenem": 74,
+    "Klebsiella pneumoniae|||Pip/taz": 136,
+    "Pseudomonas aeruginosa|||Amikacin": 108,
+    "Pseudomonas aeruginosa|||Cefepime": 108,
+    "Pseudomonas aeruginosa|||Ceftazidime": 108,
+    "Pseudomonas aeruginosa|||Imipenem": 51,
+    "Pseudomonas aeruginosa|||Levofloxacin": 108,
+    "Pseudomonas aeruginosa|||Meropenem": 56,
+    "Pseudomonas aeruginosa|||Pip/taz": 108,
+    "Serratia marcescens|||Amikacin": 37,
+    "Serratia marcescens|||Amoxy/clav": 37,
+    "Serratia marcescens|||Ampicillin": 36,
+    "Serratia marcescens|||Cefepime": 37,
+    "Serratia marcescens|||Ceftazidime": 21,
+    "Serratia marcescens|||Ceftriaxone": 37,
+    "Serratia marcescens|||Imipenem": 15,
+    "Serratia marcescens|||Levofloxacin": 37,
+    "Serratia marcescens|||Meropenem": 21,
+    "Serratia marcescens|||Pip/taz": 37,
+    "Staphylococcus aureus|||Levofloxacin": 148,
+    "Staphylococcus aureus|||Linezolid": 148,
+    "Staphylococcus aureus|||Vancomycin": 148,
+    "Streptococcus agalactiae|||Ampicillin": 44,
+    "Streptococcus agalactiae|||Ceftriaxone": 44,
+    "Streptococcus agalactiae|||Levofloxacin": 44,
+    "Streptococcus agalactiae|||Linezolid": 44,
+    "Streptococcus agalactiae|||Meropenem": 20,
+    "Streptococcus agalactiae|||Penicillin": 44,
+    "Streptococcus agalactiae|||Vancomycin": 44,
+    "Streptococcus pneumoniae|||Amoxy/clav": 60,
+    "Streptococcus pneumoniae|||Azithromycin": 49,
+    "Streptococcus pneumoniae|||Ceftriaxone": 60,
+    "Streptococcus pneumoniae|||Clarithromycin": 49,
+    "Streptococcus pneumoniae|||Erythromycin": 49,
+    "Streptococcus pneumoniae|||Imipenem": 11,
+    "Streptococcus pneumoniae|||Levofloxacin": 60,
+    "Streptococcus pneumoniae|||Linezolid": 60,
+    "Streptococcus pneumoniae|||Meropenem": 41,
+    "Streptococcus pneumoniae|||Penicillin": 60,
+    "Streptococcus pneumoniae|||Vancomycin": 60
+  },
+  "tested_pairs": [
+    [
+      "Acinetobacter baumannii",
+      "Amikacin"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Cefepime"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Ceftazidime"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Imipenem"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Levofloxacin"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Meropenem"
+    ],
+    [
+      "Acinetobacter baumannii",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Amikacin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Cefepime"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftazidime"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ceftriaxone"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Imipenem"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Meropenem"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Pip/taz"
+    ],
+    [
+      "Escherichia coli",
+      "Amikacin"
+    ],
+    [
+      "Escherichia coli",
+      "Amoxy/clav"
+    ],
+    [
+      "Escherichia coli",
+      "Ampicillin"
+    ],
+    [
+      "Escherichia coli",
+      "Cefepime"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftazidime"
+    ],
+    [
+      "Escherichia coli",
+      "Ceftriaxone"
+    ],
+    [
+      "Escherichia coli",
+      "Imipenem"
+    ],
+    [
+      "Escherichia coli",
+      "Levofloxacin"
+    ],
+    [
+      "Escherichia coli",
+      "Meropenem"
+    ],
+    [
+      "Escherichia coli",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Amikacin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Cefepime"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ceftriaxone"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Imipenem"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Amikacin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Cefepime"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftazidime"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ceftriaxone"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Imipenem"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Meropenem"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Pip/taz"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Amikacin"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Cefepime"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Ceftazidime"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Imipenem"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Levofloxacin"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Meropenem"
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      "Pip/taz"
+    ],
+    [
+      "Serratia marcescens",
+      "Amikacin"
+    ],
+    [
+      "Serratia marcescens",
+      "Amoxy/clav"
+    ],
+    [
+      "Serratia marcescens",
+      "Ampicillin"
+    ],
+    [
+      "Serratia marcescens",
+      "Cefepime"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftazidime"
+    ],
+    [
+      "Serratia marcescens",
+      "Ceftriaxone"
+    ],
+    [
+      "Serratia marcescens",
+      "Imipenem"
+    ],
+    [
+      "Serratia marcescens",
+      "Levofloxacin"
+    ],
+    [
+      "Serratia marcescens",
+      "Meropenem"
+    ],
+    [
+      "Serratia marcescens",
+      "Pip/taz"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Levofloxacin"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Linezolid"
+    ],
+    [
+      "Staphylococcus aureus",
+      "Vancomycin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Ampicillin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Ceftriaxone"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Levofloxacin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Linezolid"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Meropenem"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Penicillin"
+    ],
+    [
+      "Streptococcus agalactiae",
+      "Vancomycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Amoxy/clav"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Azithromycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Ceftriaxone"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Clarithromycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Erythromycin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Imipenem"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Levofloxacin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Linezolid"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Meropenem"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Penicillin"
+    ],
+    [
+      "Streptococcus pneumoniae",
+      "Vancomycin"
+    ]
+  ],
+  "holdout_auc": 0.8222821072911296,
+  "holdout_brier": 0.1743988868773953,
+  "holdout_year": 2017,
+  "warning": null
+}

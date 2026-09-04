@@ -1,0 +1,389 @@
+{
+  "country": "Taiwan",
+  "n_rows": 795,
+  "n_species": 10,
+  "n_antibiotics": 7,
+  "years": [
+    2006,
+    2007,
+    2008,
+    2009,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "species_categories": [
+    "Enterobacter asburiae",
+    "Enterobacter cloacae",
+    "Enterobacter hormaechi",
+    "Enterobacter spp",
+    "Enterobacter, non-speciated",
+    "Escherichia coli",
+    "Klebsiella aerogenes",
+    "Klebsiella oxytoca",
+    "Klebsiella pneumoniae",
+    "Morganella morganii"
+  ],
+  "antibiotic_categories": [
+    "Amoxy/clav",
+    "Ampicillin",
+    "Ampicillin sulbactam",
+    "Ciprofloxacin",
+    "Colistin",
+    "Levofloxacin",
+    "Pip/taz"
+  ],
+  "combo_support": {
+    "Enterobacter asburiae|||Amoxy/clav": 10,
+    "Enterobacter asburiae|||Ampicillin": 10,
+    "Enterobacter asburiae|||Levofloxacin": 10,
+    "Enterobacter asburiae|||Pip/taz": 10,
+    "Enterobacter cloacae|||Amoxy/clav": 414,
+    "Enterobacter cloacae|||Ampicillin": 414,
+    "Enterobacter cloacae|||Ampicillin sulbactam": 98,
+    "Enterobacter cloacae|||Ciprofloxacin": 98,
+    "Enterobacter cloacae|||Colistin": 179,
+    "Enterobacter cloacae|||Levofloxacin": 414,
+    "Enterobacter cloacae|||Pip/taz": 414,
+    "Enterobacter hormaechi|||Amoxy/clav": 98,
+    "Enterobacter hormaechi|||Ampicillin": 98,
+    "Enterobacter hormaechi|||Ampicillin sulbactam": 98,
+    "Enterobacter hormaechi|||Ciprofloxacin": 98,
+    "Enterobacter hormaechi|||Colistin": 98,
+    "Enterobacter hormaechi|||Levofloxacin": 98,
+    "Enterobacter hormaechi|||Pip/taz": 98,
+    "Enterobacter spp|||Amoxy/clav": 52,
+    "Enterobacter spp|||Ampicillin": 52,
+    "Enterobacter spp|||Ampicillin sulbactam": 52,
+    "Enterobacter spp|||Ciprofloxacin": 52,
+    "Enterobacter spp|||Colistin": 52,
+    "Enterobacter spp|||Levofloxacin": 52,
+    "Enterobacter spp|||Pip/taz": 52,
+    "Enterobacter, non-speciated|||Amoxy/clav": 11,
+    "Enterobacter, non-speciated|||Ampicillin": 11,
+    "Enterobacter, non-speciated|||Ampicillin sulbactam": 11,
+    "Enterobacter, non-speciated|||Ciprofloxacin": 11,
+    "Enterobacter, non-speciated|||Colistin": 11,
+    "Enterobacter, non-speciated|||Levofloxacin": 11,
+    "Enterobacter, non-speciated|||Pip/taz": 11,
+    "Escherichia coli|||Amoxy/clav": 1789,
+    "Escherichia coli|||Ampicillin": 1789,
+    "Escherichia coli|||Ampicillin sulbactam": 826,
+    "Escherichia coli|||Ciprofloxacin": 826,
+    "Escherichia coli|||Colistin": 1273,
+    "Escherichia coli|||Levofloxacin": 1789,
+    "Escherichia coli|||Pip/taz": 1789,
+    "Klebsiella aerogenes|||Amoxy/clav": 268,
+    "Klebsiella aerogenes|||Ampicillin": 267,
+    "Klebsiella aerogenes|||Ampicillin sulbactam": 91,
+    "Klebsiella aerogenes|||Ciprofloxacin": 91,
+    "Klebsiella aerogenes|||Colistin": 165,
+    "Klebsiella aerogenes|||Levofloxacin": 268,
+    "Klebsiella aerogenes|||Pip/taz": 268,
+    "Klebsiella oxytoca|||Amoxy/clav": 139,
+    "Klebsiella oxytoca|||Ampicillin": 139,
+    "Klebsiella oxytoca|||Ampicillin sulbactam": 23,
+    "Klebsiella oxytoca|||Ciprofloxacin": 23,
+    "Klebsiella oxytoca|||Colistin": 96,
+    "Klebsiella oxytoca|||Levofloxacin": 139,
+    "Klebsiella oxytoca|||Pip/taz": 139,
+    "Klebsiella pneumoniae|||Amoxy/clav": 1779,
+    "Klebsiella pneumoniae|||Ampicillin": 1777,
+    "Klebsiella pneumoniae|||Ampicillin sulbactam": 897,
+    "Klebsiella pneumoniae|||Ciprofloxacin": 897,
+    "Klebsiella pneumoniae|||Colistin": 1334,
+    "Klebsiella pneumoniae|||Levofloxacin": 1779,
+    "Klebsiella pneumoniae|||Pip/taz": 1779,
+    "Morganella morganii|||Amoxy/clav": 131,
+    "Morganella morganii|||Ampicillin": 131,
+    "Morganella morganii|||Ampicillin sulbactam": 100,
+    "Morganella morganii|||Ciprofloxacin": 100,
+    "Morganella morganii|||Colistin": 120,
+    "Morganella morganii|||Levofloxacin": 131,
+    "Morganella morganii|||Pip/taz": 131
+  },
+  "tested_pairs": [
+    [
+      "Enterobacter asburiae",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter asburiae",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter asburiae",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter asburiae",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Ciprofloxacin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Colistin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter cloacae",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Ciprofloxacin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Colistin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter hormaechi",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter spp",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter spp",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter spp",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Enterobacter spp",
+      "Ciprofloxacin"
+    ],
+    [
+      "Enterobacter spp",
+      "Colistin"
+    ],
+    [
+      "Enterobacter spp",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter spp",
+      "Pip/taz"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Amoxy/clav"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Ampicillin"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Ciprofloxacin"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Colistin"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Levofloxacin"
+    ],
+    [
+      "Enterobacter, non-speciated",
+      "Pip/taz"
+    ],
+    [
+      "Escherichia coli",
+      "Amoxy/clav"
+    ],
+    [
+      "Escherichia coli",
+      "Ampicillin"
+    ],
+    [
+      "Escherichia coli",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Escherichia coli",
+      "Ciprofloxacin"
+    ],
+    [
+      "Escherichia coli",
+      "Colistin"
+    ],
+    [
+      "Escherichia coli",
+      "Levofloxacin"
+    ],
+    [
+      "Escherichia coli",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Ciprofloxacin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Colistin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella aerogenes",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Ciprofloxacin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Colistin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella oxytoca",
+      "Pip/taz"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Amoxy/clav"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ampicillin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Ciprofloxacin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Colistin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Levofloxacin"
+    ],
+    [
+      "Klebsiella pneumoniae",
+      "Pip/taz"
+    ],
+    [
+      "Morganella morganii",
+      "Amoxy/clav"
+    ],
+    [
+      "Morganella morganii",
+      "Ampicillin"
+    ],
+    [
+      "Morganella morganii",
+      "Ampicillin sulbactam"
+    ],
+    [
+      "Morganella morganii",
+      "Ciprofloxacin"
+    ],
+    [
+      "Morganella morganii",
+      "Colistin"
+    ],
+    [
+      "Morganella morganii",
+      "Levofloxacin"
+    ],
+    [
+      "Morganella morganii",
+      "Pip/taz"
+    ]
+  ],
+  "holdout_auc": 0.7788202422874546,
+  "holdout_brier": 0.1804000456919143,
+  "holdout_year": 2024,
+  "warning": null
+}
