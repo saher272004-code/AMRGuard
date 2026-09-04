@@ -294,20 +294,59 @@ document.getElementById("results-back").addEventListener("click", () => {
   showView(lastView);
 });
 
-// ---- rotating antibiotic molecule on the landing page ----
+// ---------------------------------------------------------------------------
+// Rotating antibiotic molecule on the landing/select page
+// ---------------------------------------------------------------------------
+// FIX: some browsers/GPUs don't honor `backgroundAlpha: 0` on the 3Dmol
+// WebGL canvas and fall back to an opaque background, which shows up as a
+// bright white "blob" behind the page content instead of a transparent
+// viewer. To make this work reliably everywhere, we stop relying on canvas
+// alpha entirely and instead paint the canvas the same solid color as the
+// page (--bg), then force the canvas element itself to be transparent via
+// CSS on top of that. This way, even on machines where alpha compositing
+// isn't supported, the viewer background matches the page instead of
+// showing up as white.
 function initMoleculeBg() {
   const el = document.getElementById("mol-bg");
   if (!el || typeof $3Dmol === "undefined") return;
-  const viewer = $3Dmol.createViewer(el, { backgroundColor: 0x000000, backgroundAlpha: 0 });
+
+  // Use the page's actual dark background color instead of transparent.
+  // Reading it from CSS keeps this in sync if --bg ever changes.
+  const pageBg = getComputedStyle(document.documentElement)
+    .getPropertyValue("--bg").trim() || "#0a0e14";
+
+  const viewer = $3Dmol.createViewer(el, {
+    backgroundColor: pageBg,
+    backgroundAlpha: 1, // fully opaque, but matched to page bg — avoids white fallback
+  });
+
+  // Also set it on the container/canvas directly as a fallback in case
+  // $3Dmol doesn't apply backgroundColor consistently across versions.
+  el.style.background = pageBg;
+
   fetch("CDK1.pdb")
-    .then(r => r.text())
+    .then(r => {
+      if (!r.ok) throw new Error(`CDK1.pdb fetch failed: ${r.status}`);
+      return r.text();
+    })
     .then(data => {
       viewer.addModel(data, "pdb");
       viewer.setStyle({}, { cartoon: { color: "spectrum" } });
       viewer.zoomTo();
       viewer.spin("y", 1);
       viewer.render();
+
+      // Belt-and-braces: also force the underlying canvas to be transparent
+      // via CSS so that if the browser *does* honor alpha correctly, it still
+      // blends into the page rather than showing a solid color square.
+      const canvas = el.querySelector("canvas");
+      if (canvas) canvas.style.background = "transparent";
     })
-    .catch((e) => console.log("molecule load failed:", e));
+    .catch((e) => {
+      console.log("molecule load failed:", e);
+      // If the model fails to load, hide the container entirely rather than
+      // leaving a blank/solid-colored viewer box on screen.
+      el.style.display = "none";
+    });
 }
 initMoleculeBg();
